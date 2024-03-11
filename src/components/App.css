@@ -5,13 +5,3 @@
   border: 2px solid cadetblue;
   border-radius: 15px;
 }
-
-.button-wrapper {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.rating-wrapper {
-  padding-left: 20px;
-}
