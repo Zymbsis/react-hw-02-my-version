@@ -1,13 +1,18 @@
-.optionsWrapper {
-  margin-bottom: 10px;
+.ratingWrapper {
+  padding-left: 20px;
 }
 
-.optionsWrapper:last-of-type {
-  margin-bottom: 0;
-}
+.ratingWrapper {
+  li {
+    margin-bottom: 10px;
+  }
 
-.optionsWrapper {
+  li:last-of-type {
+    margin-bottom: 0;
+  }
+
   span {
     font-size: 24px;
+    text-transform: capitalize;
   }
 }
