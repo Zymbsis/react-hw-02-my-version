@@ -1,0 +1,13 @@
+.optionsWrapper {
+  margin-bottom: 10px;
+}
+
+.optionsWrapper:last-of-type {
+  margin-bottom: 0;
+}
+
+.optionsWrapper {
+  span {
+    font-size: 24px;
+  }
+}

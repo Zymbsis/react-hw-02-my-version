@@ -1,0 +1,23 @@
+.buttonWrapper {
+  button {
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    color: #090909;
+    font-size: 24px;
+    font-weight: 500;
+    transition: color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+  }
+
+  button:hover {
+    box-shadow: -6px -6px 12px #c5c5c5, 6px 6px 12px #ffffff;
+  }
+
+  button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+}
